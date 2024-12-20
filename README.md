@@ -87,64 +87,11 @@ Ambientes:
 Jupyter Notebook.
 Power BI Desktop.
 
-dfdsfdsfsdf 
-sdfd
-sf
-dsf
-ds
-fds
-f
-sdf
-ds
-fds
-fds
-fd
-sfsd
-fd
-sd
-sf
-sd
-fds
-fds
-f
-ds
-dfs
-f
-sdf
-sd
-fd
-sf
-ds
-fsd
-f
-sdf
-ds
-f
-sdf
-sd
-fs
-df
-sdf
-sd
-f
-sdf
-sd
-f
-sdf
-sd
-fds
-f
-sdf
-ds
-fsd
-f
-sd
-fsd
-f
-ds
-ds
-dfs
-ds
+Com este projeto, é possível obter insights valiosos sobre o cenário de canais de Ciência de Dados no YouTube, identificando padrões e tendências que podem ser aplicados para melhorar estratégias de conteúdo e engajamento.
+
+Copiar código
+
+Se precisar de ajustes ou adicionar mais detalhes, posso ajudar! 😊
 dfs
 dfs
 dfs
