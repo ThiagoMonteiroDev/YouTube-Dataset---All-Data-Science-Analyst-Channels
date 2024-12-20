@@ -1,90 +1,151 @@
-# YouTube-Dataset---All-Data-Science-Analyst-Channels
+# Análise de Dados do YouTube
 
-# Análise de Dados do YouTube  
+Este projeto realiza uma análise detalhada de dados relacionados a canais de Ciência de Dados no YouTube. A análise abrange métricas como visualizações, curtidas, comentários e o crescimento dos canais ao longo do tempo. O objetivo é identificar tópicos populares, padrões de engajamento e fornecer insights valiosos para a comunidade de dados.
 
-Este projeto contém uma análise detalhada de dados relacionados a canais de Ciência de Dados no YouTube. A análise explora métricas como visualizações, curtidas, comentários e o crescimento dos canais ao longo do tempo. A partir dessa análise, geramos insights sobre tópicos mais populares e padrões de crescimento.  
+## Estrutura do Projeto
 
-## Estrutura do Projeto  
-A estrutura do projeto é a seguinte:  
-project_folder/
-├── Youtube_dataset_all_dataScience_channels.csv # Conjunto de dados original
-├── Youtube_dataset_cleaned.csv # Conjunto de dados limpo e tratado
-├── views_by_topic.csv # Dados de visualizações por tópico para Power BI
-├── channel_growth.csv # Crescimento de visualizações por canal
-├── manipula_csv.py # Script de limpeza e manipulação de dados
-├── Untitled.ipynb # Notebook principal de análise
-├── Relatório de Análise de Dados.pdf # Relatório detalhado da análise
-├── Dashbord.pbix # Arquivo do Power BI com visualizações e relatórios
-├── requirements.txt # Dependências do projeto
-markdown
+A estrutura do projeto é organizada da seguinte forma:
+
+project_folder/ ├── Youtube_dataset_all_dataScience_channels.csv # Conjunto de dados original ├── Youtube_dataset_cleaned.csv # Conjunto de dados tratado e limpo ├── manipula_csv.py # Script para limpeza e manipulação de dados ├── Untitled.ipynb # Notebook principal de análise ├── Relatório de Análise de Dados.pdf # Relatório detalhado da análise ├── Dashbord.pbix # Dashboard interativo no Power BI ├── requirements.txt # Lista de dependências do projeto
+
+php
 Copiar código
 
-## Descrição dos Arquivos  
+## Descrição dos Arquivos
+
+### Arquivos de Dados
 - **Youtube_dataset_all_dataScience_channels.csv**:  
-  Contém os dados originais extraídos de vídeos de canais de Ciência de Dados no YouTube, incluindo informações como visualizações, curtidas e comentários.  
+  Contém os dados brutos extraídos de canais de Ciência de Dados no YouTube. Inclui informações como visualizações, curtidas, comentários e outros dados relevantes.
 
 - **Youtube_dataset_cleaned.csv**:  
-  Dados tratados e limpos, prontos para análise. Inclui correções de inconsistências e preenchimento de valores ausentes.  
+  Arquivo gerado após o processo de limpeza e tratamento de dados. Ele contém informações organizadas, consistentes e prontas para análise.
 
-- **views_by_topic.csv**:  
-  Dados sobre a quantidade de visualizações por tópico, útil para análises no Power BI.  
-
-- **channel_growth.csv**:  
-  Informações sobre o crescimento das visualizações de cada canal, comparando períodos distintos.  
-
+### Scripts e Notebooks
 - **manipula_csv.py**:  
-  Script em Python que realiza a limpeza e pré-processamento do dataset original.  
+  Script em Python responsável pela limpeza e manipulação do dataset original. Inclui etapas como remoção de valores inconsistentes, preenchimento de valores ausentes e padronização.
 
 - **Untitled.ipynb**:  
-  Notebook que contém as etapas de pré-processamento, análise exploratória e geração de visualizações para insights detalhados.  
+  Notebook Jupyter contendo todas as etapas de análise de dados. Inclui:
+  - Pré-processamento do dataset.
+  - Análise exploratória com gráficos e estatísticas descritivas.
+  - Geração de arquivos para visualizações no Power BI.
 
+### Relatório e Visualizações
 - **Relatório de Análise de Dados.pdf**:  
-  Documento contendo uma análise detalhada das descobertas, gráficos e insights obtidos.  
+  Documento detalhado com explicações sobre as etapas de análise, gráficos gerados no notebook e os insights mais importantes.
 
 - **Dashbord.pbix**:  
-  Arquivo do Power BI contendo visualizações interativas e relatórios baseados nos dados tratados.  
+  Arquivo do Power BI contendo visualizações interativas baseadas nos dados tratados. Este arquivo permite explorar métricas como crescimento de canais, tópicos populares e engajamento.
 
+### Outros Arquivos
 - **requirements.txt**:  
-  Lista todas as dependências necessárias para executar o projeto.  
+  Lista de dependências do projeto. Inclui bibliotecas necessárias para rodar o notebook e scripts Python.
 
-## Como Usar  
+## Como Usar
 
-### 1. Instalar Dependências  
-Clone o repositório e instale as dependências necessárias utilizando o arquivo `requirements.txt`:  
-```bash
-git clone <link-do-repositorio>  
-cd <diretorio-do-projeto>  
-pip install -r requirements.txt  
-2. Executar a Análise
-A análise é realizada no notebook Untitled.ipynb. Abra e execute as células diretamente em um ambiente Jupyter Notebook ou JupyterLab:
 
-bash
-Copiar código
-jupyter notebook Untitled.ipynb  
-3. Gerar Relatórios
-Após a execução do notebook ou script Python, os arquivos CSV (como Youtube_dataset_cleaned.csv, views_by_topic.csv, e channel_growth.csv) serão gerados. Esses arquivos podem ser usados para criar visualizações adicionais ou importados para o Power BI.
+### 1. Instalar Dependências
+Clone o repositório e instale as dependências utilizando o arquivo requirements.txt:
+bash 
+git clone <link-do-repositorio>
+cd <diretorio-do-projeto>
+pip install -r requirements.txt
 
-4. Explorar o Dashboard
-Abra o arquivo Dashbord.pbix no Power BI Desktop para explorar as visualizações interativas e relatórios.
+2. Executar o Notebook
+Para realizar a análise, abra o notebook Untitled.ipynb em um ambiente Jupyter Notebook ou JupyterLab e execute as células:
+jupyter notebook Untitled.ipynb
 
-Dependências
-As principais bibliotecas e ferramentas utilizadas incluem:
+3. Gerar e Explorar Visualizações
+Arquivos CSV Gerados:
+Após a execução do notebook ou do script, os arquivos Youtube_dataset_cleaned.csv e outros processados serão gerados. Eles podem ser usados diretamente em ferramentas como Power BI.
 
-pandas: Para manipulação e análise de dados.
-matplotlib e seaborn: Para visualização de dados.
-jupyter: Para execução do notebook interativo.
-Instale as dependências com:
+Dashboard no Power BI:
+Abra o arquivo Dashbord.pbix no Power BI Desktop para explorar as visualizações interativas.
 
-bash
-Copiar código
-pip install -r requirements.txt  
 Resultados Obtidos
+Limpeza de Dados:
+O arquivo Youtube_dataset_cleaned.csv contém dados tratados, removendo inconsistências e valores ausentes.
 
+Análise Exploratória:
+Gráficos gerados no notebook incluem:
 
+Distribuição de visualizações por canal.
+Análise de tópicos mais populares.
+Crescimento de engajamento ao longo do tempo.
+Dashboard Interativo:
+O arquivo Dashbord.pbix permite explorar os resultados de forma visual e dinâmica, facilitando a interpretação dos insights.
 
+Tecnologias Utilizadas
+As ferramentas e bibliotecas utilizadas neste projeto incluem:
 
+Python:
+pandas: Manipulação e análise de dados.
+matplotlib e seaborn: Visualizações gráficas.
+jupyter: Execução de notebooks interativos.
+Power BI: Criação de dashboards e relatórios interativos.
+Ambientes:
+Jupyter Notebook.
+Power BI Desktop.
 
-Insights sobre tópicos populares: Identificação dos tópicos com maior engajamento, como Python e IA.
-Padrões de crescimento: Análise de crescimento por canal ao longo do tempo.
-Dashboard interativo: Visualizações no Power BI para explorar os dados com facilidade.
-Autor(es)
+dfdsfdsfsdf 
+sdfd
+sf
+dsf
+ds
+fds
+f
+sdf
+ds
+fds
+fds
+fd
+sfsd
+fd
+sd
+sf
+sd
+fds
+fds
+f
+ds
+dfs
+f
+sdf
+sd
+fd
+sf
+ds
+fsd
+f
+sdf
+ds
+f
+sdf
+sd
+fs
+df
+sdf
+sd
+f
+sdf
+sd
+f
+sdf
+sd
+fds
+f
+sdf
+ds
+fsd
+f
+sd
+fsd
+f
+ds
+ds
+dfs
+ds
+dfs
+dfs
+dfs
+sd
