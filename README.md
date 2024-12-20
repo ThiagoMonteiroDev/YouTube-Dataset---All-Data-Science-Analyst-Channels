@@ -90,9 +90,5 @@ Power BI Desktop.
 Com este projeto, é possível obter insights valiosos sobre o cenário de canais de Ciência de Dados no YouTube, identificando padrões e tendências que podem ser aplicados para melhorar estratégias de conteúdo e engajamento.
 
 Copiar código
-
 Se precisar de ajustes ou adicionar mais detalhes, posso ajudar! 😊
-dfs
-dfs
-dfs
-sd
+
