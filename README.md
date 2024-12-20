@@ -6,7 +6,6 @@ Este projeto contém uma análise detalhada de dados relacionados a canais de Ci
 
 ## Estrutura do Projeto  
 A estrutura do projeto é a seguinte:  
-
 project_folder/
 ├── Youtube_dataset_all_dataScience_channels.csv # Conjunto de dados original
 ├── Youtube_dataset_cleaned.csv # Conjunto de dados limpo e tratado
@@ -17,7 +16,6 @@ project_folder/
 ├── Relatório de Análise de Dados.pdf # Relatório detalhado da análise
 ├── Dashbord.pbix # Arquivo do Power BI com visualizações e relatórios
 ├── requirements.txt # Dependências do projeto
-
 markdown
 Copiar código
 
@@ -81,6 +79,11 @@ bash
 Copiar código
 pip install -r requirements.txt  
 Resultados Obtidos
+
+
+
+
+
 Insights sobre tópicos populares: Identificação dos tópicos com maior engajamento, como Python e IA.
 Padrões de crescimento: Análise de crescimento por canal ao longo do tempo.
 Dashboard interativo: Visualizações no Power BI para explorar os dados com facilidade.
